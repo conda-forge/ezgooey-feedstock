@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -22,8 +22,6 @@ requirements:
     - colored >=1.4.2
     - gooey >=1.0.8
     - python >=3.8
-    - numpy
-    #required by wxpython
 
 test:
   imports:
