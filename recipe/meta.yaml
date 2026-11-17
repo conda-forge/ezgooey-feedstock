@@ -1,5 +1,5 @@
 {% set name = "ezgooey" %}
-{% set version = "2.7.7" %}
+{% set version = "2.7.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/twardoch/ezgooey/archive/v{{ version }}.tar.gz
-  sha256: 1929081739113da114cf6cd2ad391c0100470b65b0942e9b5b34151372c2b702
+  sha256: 47803272178baa0599f8edab5b74438b2cec018a12c97d5a5d4271fd159bf756
 
 build:
   noarch: python
